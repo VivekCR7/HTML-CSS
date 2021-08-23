@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #141414;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header {
+  background-color: transparent;
+  line-height: 98px;
+  width: 100vw;
+}
+
+.logo {
+  padding: 21px 27px;
+  height: 10vh;
+  width: 10vw;
+}
+
+h1 {
+  position: relative;
+  top: 10vh;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.m1 {
+  color: grey;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 29px;
+}
+.profiles {
+  height: 35vh;
+  width: 70vw;
+  background: transparent;
+  position: relative;
+  top: 16vh;
+  left: 14vw;
+}
+
+.chooseprofile {
+  display: flex;
+  flex-direction: row;
+}
+.profile1 {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  justify-content: center;
+  margin: 0px 30px;
+}
+
+.profile1:hover {
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.button {
+  display: block;
+  background-color: transparent;
+  color: grey;
+  width: 14vw;
+  position: relative;
+  top: 16vh;
+  left: 43vw;
+  border: 2px solid grey;
+}
+
+.button:hover {
+  cursor: pointer;
+  border: 2px solid white;
+  color: white;
+}
+
+.center {
+  padding: 5px 1.3vw;
+  font-size: 1.6vw;
+}
